@@ -24,12 +24,51 @@ body {
     display: grid;
 }
 
-.mainSec, .CurriculumSec, .storiesSec{
+
+
+
+
+
+
+
+
+
+
+.mainSec, .CurriculumSec, .storiesSec, .headerPart{
     width: 100%;
     justify-content: center;
     align-items: center;
     /* padding: 50px 0; */
 }
+
+.header{
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header h1{
+    /* align-items: center; */
+    margin: 10px 10px;
+}
+
+.header ul li{
+    list-style: none;
+    gap: 20px;
+    
+}
+
+
+.header ul li a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+#cross{
+    display: none;
+}
+
 
 .main{
     width: 80%;
@@ -425,3 +464,75 @@ body {
 }
 
 
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .logo h1{
+        display: none;
+    }
+
+    .headerPart{
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .main{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .main img{
+        width: 90%;
+    }
+
+    .mainText{
+        padding: 0px 20px;
+        width: 90%;
+        text-align: center;
+        /* margin: 20px; */
+    }
+
+    .header ul{
+        display: none;
+    }
+
+    .header .btn{
+        display: none;
+    }
+
+    #cross{
+        /* visibility: visible; */
+        display: block;
+        font-size: 32px;
+    }
+
+    .gridcard{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .big{
+        display: none;
+    }
+
+    .footer{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0;
+        padding: 50px 0;
+    }
+
+    .smallCard{
+        width: 90%;
+    }
+
+    .small{
+        /* width: 100%; */
+    }
+
+    .keepintouch{
+        padding-top: 30px;
+    }
+}
