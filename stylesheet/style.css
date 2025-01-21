@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    box-lines: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppings", sans-serif;
+    --color1: #F7F7F7;
+    --color2: ;
+    background: var(--color1);
+    font-family: quicksand;
+}
+
+/* shared style */
+
+.display-flex{
+    display: flex;
+}
+
+.display-grid{
+    display: grid;
+}
+
+.mainSec, .CurriculumSec, .storiesSec{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px 0; */
+    background-color: var(--color1);
+}
+
+.main{
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.mainText{
+    width: calc(50% - 10px);
+}
+
+.mainText h1{
+    font-size: 48px;
+}
+
+.mainText p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    font-family: quicksand;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.text-color1{
+    color: orange;
+}
+
+.text-color2{
+    color: skyblue;
+}
+
+
+.CurriculumSec{
+    /* padding: 50px 0; */
+    background: url('../assets/bg.png');
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* height: 100vh; */
+}
+
+.curriculam{
+    /* flex-direction: column; */
+    width: 80%;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 60px;
+}
+
+.curriculam h1{
+ font-size: 48px;
+}
+
+.gridcard{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 80px 0;
+    /* justify-content: space-around; */
+}
+
+.card1{
+    width: calc(100% - 60px);
+    /* justify-content: center; */
+    text-align: justify-center;
+    padding: 50px 40px;
+    /* margin: 20px; */
+    background: linear-gradient(#DEF5FF, rgba(255, 255, 255, 0));
+    border: 1px solid #DEF5FF;
+    border-radius: 12px;
+}
+
+.card2{
+    width: calc(100% - 60px);
+    /* justify-content: center; */
+    text-align: justify-center;
+    padding: 50px 40px;
+    /* margin: 20px; */
+    background: linear-gradient(#FFF4DC, rgba(255, 255, 255, 0));
+    border: 1px solid #DEF5FF;
+    border-radius: 12px;
+}
+
+.card3{
+    width: calc(100% - 60px);
+    /* justify-content: center; */
+    text-align: justify-center;
+    padding: 50px 40px;
+    /* margin: 20px; */
+    background: linear-gradient(#EEE1FF, rgba(255, 255, 255, 0));
+    border: 1px solid #DEF5FF;
+    border-radius: 12px;
+}
+
+.card1 h2{
+    padding: 30px;
+}
+
+.card1 p{
+    padding-bottom: 30px;
+}
+
+.secendaryBtn{
+    border: none;
+    padding: 10px;
+    background: none;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.btn1{
+    color: #64C8FF;
+}
+
+.btn2{
+    color: #F0AA00;
+}
+
+.btn3{
+    color: #8700FF;
+}
+
+.slideBtn i{
+    margin: 5px;
+    padding: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background: orange;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+.smallCard{
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+}
+
+.stories{
+    width: 80%;
+    text-align: center;
+}
+
+.big{
+    width: 50%;
+}
+
+.smallCard{
+    width: 50%;
+}
