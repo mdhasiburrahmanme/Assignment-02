@@ -174,7 +174,7 @@ body {
 
 
 .storiesSec{
-    background: url(../assets/bg.png), linear-gradient(rgba(247, 247, 247, 0), rgba(254, 161, 1, 0.25));
+    background: url(../assets/bg.png), linear-gradient(rgba(247, 247, 247, 0), rgba(254, 161, 1, 0.1));
     background-size: cover;
     background-position: top;
 }
@@ -244,10 +244,14 @@ body {
 }
 
 .big div h3 {
+    font-size: 24px;
+    font-weight: 800;
     padding-bottom: 50px;
 }
 
 .small div h3 {
+    font-size: 24px;
+    font-weight: 700;
     /* padding-bottom: 20px; */
 }
 
@@ -266,6 +270,7 @@ body {
     text-align: left;
     /* width: ; */
     background-color: #3CD8E8;
+    color: #fff;
 }
 .damiButton1{
     display: inline;
@@ -277,6 +282,7 @@ body {
     text-align: left;
     /* width: ; */
     background-color: #95B226;
+    color: #fff;
 }
 .damiButton2{
     display: inline;
@@ -288,6 +294,7 @@ body {
     text-align: left;
     /* width: ; */
     background-color: #5D58F0;
+    color: #fff;
 }
 .damiButton3{
     display: inline;
@@ -299,6 +306,7 @@ body {
     text-align: left;
     /* width: ; */
     background-color: #95B226;
+    color: #fff;
 }
 .damiButton4{
     display: inline;
@@ -310,6 +318,7 @@ body {
     text-align: left;
     /* width: ; */
     background-color: #95B226;
+    color: #fff;
 }
 
 
@@ -323,3 +332,96 @@ body {
     /* width: 50%; */
     grid-gap: 20px;
 }
+
+
+.footerSec{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #01ACFD;
+    color: #fff;
+}
+
+.footer{
+    width: 80%;
+    padding: 120px 0;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 120px;
+    justify-content: space-between;
+}
+
+
+.footerLink ul{
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.footerLink ul li{
+    list-style: none;
+    /* padding: 0 20px; */
+}
+
+.footerLink ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* .footerLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.fLogo img{
+    padding: 10px;
+}
+
+
+
+.fLogo h1{
+    font-size: 42px;
+    /* align-items: center; */
+}
+
+.footerLogo p{
+    padding: 50px 0;
+}
+
+
+.footerLink h1{
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.keepintouch h1{
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.logos i{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    background: #3B5998;
+    font-size: 24px;
+}
+
+#icon2{
+    background: #EA4C89;
+}
+
+#icon3{
+    background: #1DA1F2;
+}
+
+#icon4{
+    background: #DD4B39;
+}
+
+
