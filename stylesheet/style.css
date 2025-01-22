@@ -63,7 +63,27 @@ body {
 .header ul li a{
     text-decoration: none;
     padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
+
+.link1{
+    color: orange;
+}
+
+.link2{
+    color: skyblue;
+}
+
+.link3{
+    color: #05D4DF;
+}
+
+.link4{
+    color: #5D58EF;
+}
+
+
 
 #cross{
     display: none;
@@ -87,7 +107,7 @@ body {
 
 .mainText p{
     font-size: 20px;
-    padding-bottom: 10px;
+    padding: 20px 0;
 }
 
 .btn{
@@ -296,6 +316,7 @@ body {
 
 .damiBtn{
     position: relative;
+    padding: 50px 20px;
 
 }
 
