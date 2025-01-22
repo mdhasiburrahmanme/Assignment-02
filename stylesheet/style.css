@@ -141,7 +141,7 @@ body {
 }
 
 .card1{
-    width: calc(100% - 60px);
+    width: calc(100% - 80px);
     /* justify-content: center; */
     text-align: justify-center;
     padding: 50px 40px;
@@ -152,7 +152,7 @@ body {
 }
 
 .card2{
-    width: calc(100% - 60px);
+    width: calc(100% - 80px);
     /* justify-content: center; */
     text-align: justify-center;
     padding: 50px 40px;
@@ -163,7 +163,7 @@ body {
 }
 
 .card3{
-    width: calc(100% - 60px);
+    width: calc(100% - 80px);
     /* justify-content: center; */
     text-align: justify-center;
     padding: 50px 40px;
@@ -273,7 +273,7 @@ body {
 }
 
 .big div{
-    padding: 50px;
+    /* padding: 50px; */
     text-align: left;
 }
 
@@ -525,7 +525,7 @@ body {
     }
 
     .smallCard{
-        width: 90%;
+        width: 100%;
     }
 
     .small{
@@ -535,4 +535,68 @@ body {
     .keepintouch{
         padding-top: 30px;
     }
+
+    .mainText h1{
+        font-size: 32px;
+    }
+
+    .mainText p{
+        font-size: 14px;
+    }
+
+    .curriculam h1{
+        font-size: 32px;
+    }
+
+    .gridcard {
+        padding: 20px 0;
+        gap: 15px;
+    }
+
+    .slideBtn {
+        display: none;
+    }
+
+    .stories h1{
+        font-size: 26px;
+        /* padding-bottom: 20px; */
+    }
+
+    .cardArea{
+        margin: 20px 0;
+    }
+
+    .btnV{
+        margin: 10px 0 50px 0;
+    }
+
+    .footerLogo p{
+        padding: 20px 0;
+    }
+
+    .damiBtn p{
+        font-size: 10px !important;
+        font-weight: 500;
+        padding: 10px !important;
+    }
+
+
+
+    .damiBtn h3{
+        font-size: 10px !important;
+        font-weight: 800;
+    }
+
+    .damiButton1, .damiButton2, .damiButton3, .damiButton4{
+        top: -20px ;
+        left: 10px;
+    }
+    
+    .damiBtn{
+        padding: 30px 10px !important;
+    }
+
+
+
+
 }
